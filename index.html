@@ -1,105 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>M4NGTX.</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <title>Personal Portfolio Website HTML CSS Only | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <div id="particles-js"></div>
-    <div id="box">
-        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
-        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
-    </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>M4NGTX</h1>
-        <h2>Pentester / Photographer / Manusia Separa Cyborg</h2>
-        <div id="menu">
-            <a onclick="showabout()">about</a>
-            <a onclick="showwork()">work</a>
-            <a onclick="showcontact()">contact</a>
-        </div>
-        <table>
-                <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://web.facebook.com/pemerintah.bangsat/"><i class="fab fa-facebook"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/man_gtx/"><i class="fab fa-twitter"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/man.gtx/"><i class="fab fa-instagram"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://github.com/mangtx1337/"><i class="fab fa-dribbble"></i></a></td>
-                </tr>
-        </table>
-    </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>works.</h1>
-        <section>
-            <h2>Seorang Penglipur Lara</h2>
-            <p>
-                Mempunyai pengalaman dalam bidang UnderMaintenance, Nanti Update sksksks
-            </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+    
+    <header class="header">
+        <a href="#" class="logo">Mangtx.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Mangtx</h1>
+            <h3>Cybersecurity Researcher</h3>
+            <p>Mempunyai pengalaman yang luas serta berdaya saing dalam komuniti ini. Pernah membuat penyelidikan & menjumpai 0day walaupun hanya dalam dunia khayalan tetapi ia mampu mengubah dunia. Terlahir separuh manusia separuh Cyborg.</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Jom Lepak</a>
             </div>
-            <button class="btn_one">button 1</button>
-            <button class="btn_two">button 2</button>
-        </section>
-    </div>
-    <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>about.</h1>
-            <section>
-                <h2>About Me</h2>
-                <p>
-                    Ntah, nanti aku update. Tiada idea lagi sksksksksks
-                </p>
-                <p>
-                    Under Maintenance Sabar!
-                </p>
-            </section>
-            <section>
-                <h2>skills</h2>
-                <p>
-                    Mahir Macam-Macam (CEYYYY Acah) ;)
-                </p>
-            </section>
         </div>
-          <div id="contact_container" class="container">
-            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>contact.</h1>
-            <section>
-                <h2>contact me</h2>
-                <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
-                    </form> 
-                </p>
-            </section>
+
+        <div class="home-sci">
+            <a href="https://web.facebook.com/pemerintah.bangsat/"><i class='bx bxl-meta'></i></a>
+            <a href="https://twitter.com/man_gtx/"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/man.gtx/"><i class='bx bxl-instagram'></i></a>
         </div>
-        <div id="footer">
-            dibuat oleh manusia separa cyborg dari angkasa lepas <br> <a href="https://mangtx1337.github.io">Touch Me Senpaii xD</a>
+
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!-- Services Page -->
+    <section id="services" class="services">
+        <div class="section-content">
+            <h2>Services</h2>
+            <p>Discover the range of services I offer to help you achieve your goals.</p>
+            <ul class="service-list">
+                <li>Web Development</li>
+                <li>Cybersecurity Consultation</li>
+                <li>Network Architecture Design</li>
+            </ul>
         </div>
-    <script src="index.js" type="text/javascript"></script>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+    </section>
+
+    <!-- Portfolio Page -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-content">
+            <h2>Portfolio</h2>
+            <p>Explore some of my recent projects and accomplishments.</p>
+            <div class="portfolio-item">
+                <img src="" alt="Project 1">
+                <h3>Project 1</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="" alt="Project 2">
+                <h3>Project 2</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="contact">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <p>If you're interested in working together or have any inquiries, feel free to reach out.</p>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
