@@ -5,87 +5,298 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mangtx.</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Welcome The Ngentod Family | Mangtx</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    
+
+    <!-- header design -->
     <header class="header">
-        <a href="#" class="logo">Mangtx.</a>
+        <a href="" class="logo">Mangtx.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
         </nav>
     </header>
 
-    <section id="home" class="home">
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
         <div class="home-content">
-            <h1>Hi, I'm Mangtx</h1>
-            <h3>Cybersecurity Researcher</h3>
-            <p>Mempunyai pengalaman yang luas serta berdaya saing dalam komuniti ini. Pernah membuat penyelidikan & menjumpai 0day walaupun hanya dalam dunia khayalan tetapi ia mampu mengubah dunia. Terlahir separuh manusia separuh Cyborg.</p>
+            <h1>Hi, I'm <span>Mangtx</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>CyberSecurity Enthusiast</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Mempunyai pengalaman yang boleh dikatakan padu dalam bidang CyberSecurity selama tempoh xx Tahun. Pernah terlibat dengan OpenSource Project & mewakili negeri Sabah dalam pertandingan Lelaki Tertampan Di Bumi Tapops.
+
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
             <div class="btn-box">
-                <a href="#">Hire Me</a>
-                <a href="#">Jom Lepak</a>
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn">Jom Lepak</a>
+                <span class="animate" style="--i:5;"></span>
             </div>
         </div>
 
         <div class="home-sci">
             <a href="https://web.facebook.com/pemerintah.bangsat/"><i class='bx bxl-meta'></i></a>
             <a href="https://twitter.com/man_gtx/"><i class='bx bxl-twitter'></i></a>
-            <a href="https://www.instagram.com/man.gtx/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.instagram.com/man.gtx/"><i class='bx bxl-instagram' ></i></a>
+            <span class="animate" style="--i:6;"></span>
         </div>
 
-        <span class="home-imgHover"></span>
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
     </section>
 
-    <!-- Services Page -->
-    <section id="services" class="services">
-        <div class="section-content">
-            <h2>Services</h2>
-            <p>Discover the range of services I offer to help you achieve your goals.</p>
-            <ul class="service-list">
-                <li>Web Development</li>
-                <li>Cybersecurity Consultation</li>
-                <li>Network Architecture Design</li>
-            </ul>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="images/test.jpg" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
         </div>
-    </section>
 
-    <!-- Portfolio Page -->
-    <section id="portfolio" class="portfolio">
-        <div class="section-content">
-            <h2>Portfolio</h2>
-            <p>Explore some of my recent projects and accomplishments.</p>
-            <div class="portfolio-item">
-                <img src="" alt="Project 1">
-                <h3>Project 1</h3>
-            </div>
-            <div class="portfolio-item">
-                <img src="" alt="Project 2">
-                <h3>Project 2</h3>
-            </div>
-        </div>
-    </section>
+        <div class="about-content">
+            <h3>Jejaka Tertampan Di Planet Tapops !<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Illo possimus quasi culpa temporibus perspiciatis labore quaerat impedit earum 
+                Illo possimus quasi culpa temporibu
+                Illo possimus quasi culpa temporibus perspiciatis labore quaerat impedit earum dolores pariatur incidunt, aliquam ea excepturi esse rem inventore quia non ipsa corporis suscipit dicta eveniet, commodi voluptatibus assumenda! Iusto et saepe fuga impedit.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
 
-    <!-- Contact Page -->
-    <section id="contact" class="contact">
-        <div class="section-content">
-            <h2>Contact</h2>
-            <p>If you're interested in working together or have any inquiries, feel free to reach out.</p>
-            <div class="contact-form">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea placeholder="Your Message"></textarea>
-                <button>Send Message</button>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+                <span class="animate scroll" style="--i:5;"></span>
             </div>
         </div>
     </section>
 
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="tahun"><i class='bx bxs-calendar'></i> 2017 - 2018</div>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sequi asperiores suscipit at commodi 
+                                dolor aspernatur quia alias nemo? Consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="tahun"><i class='bx bxs-calendar'></i> 2018 - 2019</div>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sequi asperiores suscipit at commodi 
+                                dolor aspernatur quia alias nemo? Consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="tahun"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sequi asperiores suscipit at commodi 
+                                dolor aspernatur quia alias nemo? Consectetur.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="tahun"><i class='bx bxs-calendar'></i> 2017 - 2018</div>
+                            <h3>Web Deveoloper - Syarikat</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sequi asperiores suscipit at commodi 
+                                dolor aspernatur quia alias nemo? Consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="tahun"><i class='bx bxs-calendar'></i> 2018 - 2019</div>
+                            <h3>Web Deveoloper - Syarikat</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sequi asperiores suscipit at commodi 
+                                dolor aspernatur quia alias nemo? Consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="tahun"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Web Deveoloper - Syarikat</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sequi asperiores suscipit at commodi 
+                                dolor aspernatur quia alias nemo? Consectetur.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Javascript <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>55%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Pentesting <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>SEO Marketing <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Mangtx | Tertakluk Terma & Syarat</p>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
